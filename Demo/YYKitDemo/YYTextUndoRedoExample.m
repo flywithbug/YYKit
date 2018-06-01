@@ -8,6 +8,7 @@
 
 #import "YYTextUndoRedoExample.h"
 #import "YYKit.h"
+#import "YYModel.h"
 
 @interface YYTextUndoRedoExample ()<YYTextViewDelegate>
 @property (nonatomic, assign) YYTextView *textView;

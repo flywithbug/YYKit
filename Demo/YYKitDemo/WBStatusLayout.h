@@ -7,6 +7,7 @@
 //
 
 #import "YYKit.h"
+#import "YYModel.h"
 #import "WBModel.h"
 #import "WBStatusHelper.h"
 

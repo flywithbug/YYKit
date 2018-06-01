@@ -8,6 +8,7 @@
 
 #import "YYSimpleWebViewController.h"
 #import "YYKit.h"
+#import "YYModel.h"
 
 @interface YYSimpleWebViewController () <UIWebViewDelegate>
 @property (nonatomic, strong) UIWebView *webView;

@@ -8,6 +8,7 @@
 
 #import "YYTableViewCell.h"
 #import "YYKit.h"
+#import "YYModel.h"
 #import "T1StatusLayout.h"
 #import "YYControl.h"
 

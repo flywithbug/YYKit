@@ -8,6 +8,7 @@
 
 #import "YYWebImageExample.h"
 #import "YYKit.h"
+#import "YYModel.h"
 
 #define kCellHeight ceil((kScreenWidth) * 3.0 / 4.0)
 

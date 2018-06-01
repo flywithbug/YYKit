@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "YYKit.h"
+#import "YYModel.h"
 
 @class T1User;
 
@@ -201,7 +202,7 @@
 @property (nonatomic, assign) uint32_t participantsCount;
 @property (nonatomic, assign) uint32_t targetCount; // 0 if no target items
 @property (nonatomic, strong) NSString *rootUserID;
-@property (nonatomic, strong) NSArray *contextIDs; //<
+@property (nonatomic, strong) NSArray *contextIDs; //
 @property (nonatomic, strong) NSArray *entityIDs;
 
 @property (nonatomic, strong) NSArray *tweets; // Array<T1Tweet>

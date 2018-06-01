@@ -8,6 +8,7 @@
 
 #import "WBStatusTimelineViewController.h"
 #import "YYKit.h"
+#import "YYModel.h"
 #import "WBModel.h"
 #import "WBStatusLayout.h"
 #import "WBStatusCell.h"
@@ -16,7 +17,7 @@
 #import "WBStatusComposeViewController.h"
 #import "YYPhotoGroupView.h"
 #import "YYFPSLabel.h"
-
+#import "YYModel.h"
 
 @interface WBStatusTimelineViewController () <UITableViewDelegate, UITableViewDataSource, WBStatusCellDelegate>
 @property (nonatomic, strong) UITableView *tableView;
@@ -80,7 +81,7 @@
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         for (int i = 0; i <= 7; i++) {
             NSData *data = [NSData dataNamed:[NSString stringWithFormat:@"weibo_%d.json",i]];
-            WBTimelineItem *item = [WBTimelineItem modelWithJSON:data];
+            WBTimelineItem *item = [WBTimelineItem yy_modelWithJSON:data];
             for (WBStatus *status in item.statuses) {
                 WBStatusLayout *layout = [[WBStatusLayout alloc] initWithStatus:status style:WBLayoutStyleTimeline];
 //                [layout layout];

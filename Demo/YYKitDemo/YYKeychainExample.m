@@ -8,6 +8,7 @@
 
 #import "YYKeychainExample.h"
 #import "YYKit.h"
+#import "YYModel.h"
 
 static NSString *const kServiceName = @"Facebook";
 static NSString *const kAccountName = @"ibireme";

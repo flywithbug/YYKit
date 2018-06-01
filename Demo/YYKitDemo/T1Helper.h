@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "YYKit.h"
+#import "YYModel.h"
 
 @interface T1Helper : NSObject
 

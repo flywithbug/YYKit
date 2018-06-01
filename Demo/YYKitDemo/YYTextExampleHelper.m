@@ -8,6 +8,7 @@
 
 #import "YYTextExampleHelper.h"
 #import "YYKit.h"
+#import "YYModel.h"
 
 static BOOL DebugEnabled = NO;
 

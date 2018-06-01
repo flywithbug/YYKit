@@ -8,6 +8,7 @@
 
 #import "YYTextAttributeExample.h"
 #import "YYKit.h"
+#import "YYModel.h"
 #import "YYTextExampleHelper.h"
 
 @implementation YYTextAttributeExample
