@@ -8,7 +8,6 @@
 
 #import "YYImageDisplayExample.h"
 #import "YYKit.h"
-#import "YYModel.h"
 #import "YYImageExampleHelper.h"
 
 

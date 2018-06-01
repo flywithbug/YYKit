@@ -1,6 +1,6 @@
 //
 //  YYClassInfo.m
-//  YYModel <https://github.com/ibireme/YYModel>
+//  YYKit <https://github.com/ibireme/YYKit>
 //
 //  Created by ibireme on 15/5/9.
 //  Copyright (c) 2015 ibireme.

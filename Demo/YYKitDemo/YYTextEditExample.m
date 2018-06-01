@@ -8,7 +8,6 @@
 
 #import "YYTextEditExample.h"
 #import "YYKit.h"
-#import "YYModel.h"
 #import "YYTextExampleHelper.h"
 
 @interface YYTextEditExample () <YYTextViewDelegate, YYTextKeyboardObserver>

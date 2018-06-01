@@ -8,7 +8,6 @@
 
 #import "YYTextExample.h"
 #import "YYKit.h"
-#import "YYModel.h"
 #import <time.h>
 
 @interface YYTextExample()

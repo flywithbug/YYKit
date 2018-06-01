@@ -8,7 +8,6 @@
 
 #import "YYImageExample.h"
 #import "YYKit.h"
-#import "YYModel.h"
 #import <ImageIO/ImageIO.h>
 #import <WebP/demux.h>
 

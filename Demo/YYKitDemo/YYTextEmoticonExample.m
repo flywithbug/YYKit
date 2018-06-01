@@ -8,7 +8,6 @@
 
 #import "YYTextEmoticonExample.h"
 #import "YYKit.h"
-#import "YYModel.h"
 
 @interface YYTextEmoticonExample () <YYTextViewDelegate>
 @property (nonatomic, strong) YYTextView *textView;

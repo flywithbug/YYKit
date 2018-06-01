@@ -8,7 +8,6 @@
 
 #import "YYTextMarkdownExample.h"
 #import "YYKit.h"
-#import "YYModel.h"
 
 @interface YYTextMarkdownExample () <YYTextViewDelegate>
 @property (nonatomic, assign) YYTextView *textView;

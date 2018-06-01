@@ -8,7 +8,6 @@
 
 #import "YYTextAsyncExample.h"
 #import "YYKit.h"
-#import "YYModel.h"
 #import "YYFPSLabel.h"
 
 #define kCellHeight 34

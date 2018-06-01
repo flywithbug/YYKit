@@ -8,7 +8,6 @@
 
 #import "WBStatusTimelineViewController.h"
 #import "YYKit.h"
-#import "YYModel.h"
 #import "WBModel.h"
 #import "WBStatusLayout.h"
 #import "WBStatusCell.h"
@@ -17,7 +16,7 @@
 #import "WBStatusComposeViewController.h"
 #import "YYPhotoGroupView.h"
 #import "YYFPSLabel.h"
-#import "YYModel.h"
+
 
 @interface WBStatusTimelineViewController () <UITableViewDelegate, UITableViewDataSource, WBStatusCellDelegate>
 @property (nonatomic, strong) UITableView *tableView;
@@ -47,7 +46,7 @@
     self.navigationItem.rightBarButtonItem = rightItem;
     
     _tableView.frame = self.view.bounds;
-    _tableView.contentInset = UIEdgeInsetsMake(64, 0, 0, 0);
+    _tableView.contentInset = UIEdgeInsetsMake(0, 0, 0, 0);
     _tableView.scrollIndicatorInsets = _tableView.contentInset;
     _tableView.backgroundColor = [UIColor clearColor];
     _tableView.backgroundView.backgroundColor = [UIColor clearColor];
@@ -81,7 +80,7 @@
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         for (int i = 0; i <= 7; i++) {
             NSData *data = [NSData dataNamed:[NSString stringWithFormat:@"weibo_%d.json",i]];
-            WBTimelineItem *item = [WBTimelineItem yy_modelWithJSON:data];
+            WBTimelineItem *item = [WBTimelineItem modelWithJSON:data];
             for (WBStatus *status in item.statuses) {
                 WBStatusLayout *layout = [[WBStatusLayout alloc] initWithStatus:status style:WBLayoutStyleTimeline];
 //                [layout layout];

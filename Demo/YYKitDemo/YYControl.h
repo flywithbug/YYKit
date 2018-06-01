@@ -8,7 +8,6 @@
 
 #import <UIKit/UIKit.h>
 #import "YYKit.h"
-#import "YYModel.h"
 
 @interface YYControl : UIView
 @property (nonatomic, strong) UIImage *image;

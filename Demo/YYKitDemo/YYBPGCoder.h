@@ -7,7 +7,6 @@
 //
 
 #import "YYKit.h"
-#import "YYModel.h"
 
 /*
  BPG image format:

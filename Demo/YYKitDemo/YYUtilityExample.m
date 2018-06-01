@@ -8,7 +8,6 @@
 
 #import "YYUtilityExample.h"
 #import "YYKit.h"
-#import "YYModel.h"
 
 @interface YYUtilityExample()
 @property (nonatomic, strong) NSMutableArray *titles;

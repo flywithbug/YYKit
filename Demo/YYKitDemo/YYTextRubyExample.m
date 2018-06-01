@@ -8,7 +8,6 @@
 
 #import "YYTextRubyExample.h"
 #import "YYKit.h"
-#import "YYModel.h"
 
 /*
  Ruby Annotation

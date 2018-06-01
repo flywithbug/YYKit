@@ -8,7 +8,6 @@
 
 #import "YYTextTagExample.h"
 #import "YYKit.h"
-#import "YYModel.h"
 #import "YYTextExampleHelper.h"
 
 @interface YYTextTagExample () <YYTextViewDelegate>

@@ -8,7 +8,6 @@
 
 #import "YYTextAttachmentExample.h"
 #import "YYKit.h"
-#import "YYModel.h"
 #import "YYTextExampleHelper.h"
 #import "YYImageExampleHelper.h"
 
