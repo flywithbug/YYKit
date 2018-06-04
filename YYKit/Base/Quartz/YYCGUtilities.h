@@ -30,6 +30,9 @@ CGContextRef _Nullable YYCGContextCreateARGBBitmapContext(CGSize size, BOOL opaq
 /// Create a `DeviceGray` Bitmap context. Returns NULL if an error occurs.
 CGContextRef _Nullable YYCGContextCreateGrayBitmapContext(CGSize size, CGFloat scale);
 
+#pragma clang diagnostic push
+
+#pragma clang diagnostic ignored "-Wstrict-prototypes"
 
 
 /// Get main screen's scale.
@@ -38,6 +41,7 @@ CGFloat YYScreenScale();
 /// Get main screen's size. Height is always larger than width.
 CGSize YYScreenSize();
 
+#pragma clang diagnostic pop
 
 
 /// Convert degrees to radians.

@@ -287,6 +287,9 @@ static inline dispatch_time_t dispatch_walltime_date(NSDate *date) {
 static inline bool dispatch_is_main_queue() {
     return pthread_main_np() != 0;
 }
+#pragma clang diagnostic push
+
+#pragma clang diagnostic ignored "-Wstrict-prototypes"
 
 /**
  Submits a block for asynchronous execution on a main queue and returns immediately.
@@ -309,6 +312,7 @@ static inline void dispatch_sync_on_main_queue(void (^block)()) {
         dispatch_sync(dispatch_get_main_queue(), block);
     }
 }
+#pragma clang diagnostic pop
 
 /**
  Initialize a pthread mutex.

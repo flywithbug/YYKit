@@ -20,6 +20,9 @@
 
 YY_EXTERN_C_BEGIN
 NS_ASSUME_NONNULL_BEGIN
+#pragma clang diagnostic push
+
+#pragma clang diagnostic ignored "-Wstrict-prototypes"
 
 /**
  Whether the character is 'line break char':
@@ -258,6 +261,7 @@ NSCharacterSet *YYTextVerticalFormRotateCharacterSet();
  @return The shared character set.
  */
 NSCharacterSet *YYTextVerticalFormRotateAndMoveCharacterSet();
+#pragma clang diagnostic pop
 
 NS_ASSUME_NONNULL_END
 YY_EXTERN_C_END

@@ -9,6 +9,9 @@
 //  LICENSE file in the root directory of this source tree.
 //
 
+#pragma clang diagnostic push
+
+#pragma clang diagnostic ignored "-Wstrict-prototypes"
 #import <UIKit/UIKit.h>
 
 NS_ASSUME_NONNULL_BEGIN
@@ -501,5 +504,6 @@ CG_EXTERN CFDataRef _Nullable YYCGImageCreateEncodedWebPData(CGImageRef imageRef
                                                              CGFloat quality,
                                                              int compressLevel,
                                                              YYImagePreset preset);
+#pragma clang diagnostic pop
 
 NS_ASSUME_NONNULL_END
