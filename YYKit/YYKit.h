@@ -50,8 +50,9 @@ FOUNDATION_EXPORT const unsigned char YYKitVersionString[];
 #import <YYKit/CALayer+YYAdd.h>
 #import <YYKit/YYCGUtilities.h>
 
-#import <YYKit/NSObject+YYModel.h>
-#import <YYKit/YYClassInfo.h>
+//depency YYModel
+#import <YYModel/NSObject+YYModel.h>
+#import <YYModel/YYClassInfo.h>
 
 #import <YYKit/YYCache.h>
 #import <YYKit/YYMemoryCache.h>
